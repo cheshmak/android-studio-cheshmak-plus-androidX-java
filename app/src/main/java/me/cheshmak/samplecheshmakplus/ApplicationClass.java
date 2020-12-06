@@ -1,13 +1,14 @@
 package me.cheshmak.samplecheshmakplus;
 
-import android.app.Application;
 import android.util.Log;
+
+import androidx.multidex.MultiDexApplication;
 
 import me.cheshmak.android.sdk.core.Cheshmak;
 import me.cheshmak.android.sdk.core.network.CheshmakCallback;
 import me.cheshmak.cheshmakplussdk.core.CheshmakPlus;
 
-public class ApplicationClass extends Application {
+public class ApplicationClass extends MultiDexApplication {
 
 
     @Override
